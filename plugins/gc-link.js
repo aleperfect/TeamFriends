@@ -52,9 +52,9 @@ const handler = async (m, {conn, args}) => {
         conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
            contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
            title: tradutor.texto1[0],
-           body: 'Readz Aleizn',
+           body: '𝐓𝐞𝐚𝐦 𝐅𝐫𝐢𝐞𝐧𝐝𝐬',
            previewType: 0, thumbnail: fs.readFileSync('./Menu2.jpg'),
-           sourceUrl: `https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY`}
+           sourceUrl: `https://www.instagram.com/clan_teamfriends.ofc`}
            }
         }
       );  
